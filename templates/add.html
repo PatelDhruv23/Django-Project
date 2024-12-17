@@ -1,0 +1,12 @@
+
+{%include 'menu.html' %}
+{% load static %}
+<center>
+    <h3>Student Registration</h3>
+        <form method="post" >
+            {% csrf_token %}
+            {{ form.as_p }}
+            <input type="submit" value="SUBMIT"/>
+        </form>
+</center>
+{%include 'footer.html' %}

@@ -1,0 +1,27 @@
+
+{%include 'menu.html' %}
+{% load static %}
+<br>
+
+<center>
+    <h3>Marksheet</h3>
+<table border="2" class="table table-striped">
+    <tr>
+        <th scope="col">JAVA</th>
+        <th scope="col">PYTHON</th>
+        <th scope="col">OS</th>
+        <th scope="col">DSA</th>
+        <th scope="col">Average</th>
+    </tr>
+    <tr>
+        <td>{{mys1}}</td>
+        <td>{{mys2}}</td>
+        <td>{{mys3}}</td>
+        <td>{{mys4}}</td>
+        <td>{{myavg}}</td>
+
+    </tr>
+
+</table>
+</center>
+{%include 'footer.html' %}
